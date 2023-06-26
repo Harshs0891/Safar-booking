@@ -17,7 +17,7 @@ import com.Safar.fullstackbackend.Model.User;
 import com.Safar.fullstackbackend.Repository.UserRepository;
 
 @RestController  // used to define a RESTful controller
-@CrossOrigin("http://localhost:3000") //allows our web application running in one domain to access resources (such as APIs) on a different domain
+@CrossOrigin("https://safar-boolean-autocrats.netlify.app/") //allows our web application running in one domain to access resources (such as APIs) on a different domain
 public class UserController {
     
     @Autowired //for automatic dependency injection
